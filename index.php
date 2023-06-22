@@ -9,14 +9,95 @@
 </head>
 
 <body>
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Add
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="users/create.php">Add user</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Manage
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="users/index.php">Manage User</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <section>
-        <div class="container w-25 mx-auto my-5">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                    <h5 class="card-title">TMS </h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="users/index.php" class="btn btn-primary">Open System</a>
+        <div class="row container mx-auto my-5">
+            <div class="col-lg-3 py-2">
+                <div class="card">
+                    <a href="users/index.php" class="text-decoration-none">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Users </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 py-2">
+                <div class="card">
+                    <a href="users/index.php" class="text-decoration-none">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Users </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 py-2">
+                <div class="card">
+                    <a href="users/index.php" class="text-decoration-none">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Users </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 py-2">
+                <div class="card">
+                    <a href="users/index.php" class="text-decoration-none">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Users </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 py-2">
+                <div class="card">
+                    <a href="users/index.php" class="text-decoration-none">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Users </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 
