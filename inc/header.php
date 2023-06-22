@@ -1,4 +1,13 @@
-<?php require("../process/config.php"); ?>
+<?php require("../process/config.php"); 
+session_start();
+
+if(isset($_SESSION['email'])){
+
+}
+else{
+    header("Refresh:0; url=../index.php"); 
+}
+?>
 <!doctype html>
 <html lang="en">
 
